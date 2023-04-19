@@ -1,0 +1,1 @@
+document.querySelector(".date-last-modified").textContent = new Date(document.lastModified);

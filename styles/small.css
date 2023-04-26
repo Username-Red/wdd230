@@ -3,6 +3,10 @@ body {
     font-family: "Share Tech Mono";
 }
 
+body {
+    width: 100%;
+}
+
 .top-bit {
     border-radius: 20px;
     display: flex;

@@ -43,6 +43,12 @@ body {
     text-align: center;
 }
 
+.footer-info-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 .bottom-bit {
     background-color: lightblue;
     text-align: center;
@@ -53,4 +59,7 @@ body {
 
 .date-box {
     color: rgb(168, 130, 5);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }

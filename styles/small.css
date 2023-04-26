@@ -10,7 +10,7 @@ body {
 .top-bit {
     border-radius: 20px;
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(53, 187, 231);
     
     height: 30%;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
@@ -58,7 +58,7 @@ body {
 }
 
 .date-box {
-    color: rgb(168, 130, 5);
+    color: rgb(241, 203, 78);
     display: flex;
     justify-content: center;
     margin-bottom: 40px;

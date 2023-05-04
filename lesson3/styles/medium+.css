@@ -29,11 +29,17 @@ header {
     border-radius: 20px ;
 }
 
+.title {
+    text-align: center;
+    margin: 0 auto;
+    border: black solid 2px;
+}
+
 header h1 {
     margin: 0 auto;
     
     align-self: center;
-    border: black solid 2px;
+    
 }
 
 .page-links {

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+body {
+    font-family: Gugi;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header parts of the html pages */
+header {
+    display: flex;
+    background-color: #6ce5e8;
+    
+    height: 20vh;
+    width: 100vw;
+}
+
+.page-links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+    width: 26vw;
+}
+
+
+.icon {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    
+    height: 84%;
+
+    
+}
+
+
+
+/*footer css*/
+
+footer {
+    background-color: #6ce5e8;
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+}

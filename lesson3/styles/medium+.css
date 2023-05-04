@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 
+/*General rules for general elements*/
 body {
     font-family: Gugi;
     width: 100%;
     margin: 0 auto;
 }
+
+a:visited { text-decoration: none; color:rgb(0, 0, 0); }
+a:hover { text-decoration: none; color:rgb(255, 255, 255); }
+a:focus { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
 
 /* Header parts of the html pages */
 header {

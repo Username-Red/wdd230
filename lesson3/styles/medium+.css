@@ -31,8 +31,9 @@ header {
 
 header h1 {
     margin: 0 auto;
-    float: center;
+    
     align-self: center;
+    border: black solid 2px;
 }
 
 .page-links {
@@ -59,10 +60,7 @@ header h1 {
 
 /*index page specific css*/
 
-main {
-    text-align: center;
-    
-}
+
 
 h2 {
     font-size: 8vh;
@@ -85,6 +83,29 @@ h2 {
 
 .purpose h2 {
     padding-top: 5vh;
+}
+
+/*css specifically for target-audience*/
+.persona {
+    background-color:rgb(34, 219, 127);
+    border-radius: 20px;
+    width: 45vw;
+}
+
+.persona h1 {
+    text-align: center;
+}
+
+.persona-info {
+    margin: 2vh;
+    
+}
+
+.main-TA {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 /*footer css*/

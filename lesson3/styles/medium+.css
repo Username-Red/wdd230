@@ -18,6 +18,8 @@ header {
 .page-links {
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    right: 1%;
     list-style-type: none;
     
     width: 26vw;

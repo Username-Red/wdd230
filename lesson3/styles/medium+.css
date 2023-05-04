@@ -4,8 +4,11 @@
 body {
     font-family: Gugi;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 ;
 }
+
+
+
 a {
     color: black;
     text-decoration: none;
@@ -15,13 +18,21 @@ a:hover { text-decoration: none; color:rgb(255, 255, 255); }
 a:focus { text-decoration: none; color:rgb(255, 255, 255); }
 a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
 
+
 /* Header parts of the html pages */
 header {
     display: flex;
     background-color: #6ce5e8;
     
     height: 20vh;
-    width: 100vw;
+    width: 100%;
+    border-radius: 20px ;
+}
+
+header h1 {
+    margin: 0 auto;
+    float: center;
+    align-self: center;
 }
 
 .page-links {
@@ -46,12 +57,52 @@ header {
 }
 
 
+/*index page specific css*/
+
+main {
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 8vh;
+}
+.purpose {
+    width: 50vw;
+    
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    
+    font-size: 5vh;
+    border-radius: 20px ;
+
+    background-color: rgb(34, 219, 127);
+}
+
+.purpose p {
+    padding-bottom: 5vh;
+}
+
+.purpose h2 {
+    padding-top: 5vh;
+}
 
 /*footer css*/
 
 footer {
     background-color: #6ce5e8;
     height: 20vh;
-    width: 100vw;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    border-radius: 20px ;
+}
+
+.footer-info {
+    margin: 0 auto;
+    margin-top: 6vh;
+    color: rgb(14, 150, 59);
+}
+
+.outside-links {
+    margin-top: 6vh;
 }

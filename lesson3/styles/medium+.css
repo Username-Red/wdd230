@@ -31,7 +31,8 @@ header {
 
 .title {
     text-align: center;
-    margin: 0 auto;
+    justify-content: center;
+    margin: auto;
     border: black solid 2px;
 }
 
@@ -65,9 +66,6 @@ header h1 {
 
 
 /*index page specific css*/
-
-
-
 h2 {
     font-size: 8vh;
 }
@@ -80,7 +78,7 @@ h2 {
     font-size: 5vh;
     border-radius: 20px ;
 
-    background-color: rgb(34, 219, 127);
+    background-color: #22DB7F;
 }
 
 .purpose p {
@@ -93,7 +91,7 @@ h2 {
 
 /*css specifically for target-audience*/
 .persona {
-    background-color:rgb(34, 219, 127);
+    background-color:#22DB7F;
     border-radius: 20px;
     width: 45vw;
 }
@@ -113,6 +111,51 @@ h2 {
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
+
+/*Design page css*/
+.box1 {
+    width: 15vh;
+    height: 10vh;
+    background-color: #6ce5e8;
+}
+.box2 {
+    width: 15vh;
+    height: 10vh;
+    background-color: #22DB7F;
+}
+.box3 {
+    width: 15vh;
+    height: 10vh;
+    background-color: white;
+}
+.box4 {
+    width: 15vh;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+.color-scheme-box {
+    display: flex;
+    margin: 0 auto;
+    width: 66vh;
+    border: black solid 1px;
+    justify-content: space-between;
+}
+
+.design-elements {
+    text-align: center;
+    border: black solid 2px;
+    margin: 0 auto;
+}
+
+.typography {
+    margin-top: 5vh;
+    background-color: #22DB7F;
+    padding: 1vh;
+    border-radius: 20px;
+}
+
 
 /*footer css*/
 

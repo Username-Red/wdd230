@@ -74,20 +74,19 @@ h2 {
     
     margin: 0 auto;
     margin-bottom: 5vh;
+    margin-top: 5vh;
     
     font-size: 5vh;
     border-radius: 20px ;
 
     background-color: #22DB7F;
+    padding: 2vw;
+    text-align: center;
 }
 
-.purpose p {
-    padding-bottom: 5vh;
-}
 
-.purpose h2 {
-    padding-top: 5vh;
-}
+
+
 
 /*css specifically for target-audience*/
 .persona {

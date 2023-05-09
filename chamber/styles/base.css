@@ -37,17 +37,17 @@ header {
     text-align: center;
     font-size: 30px;
     
+    
 }
 
 
 
 .page-links {
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
+    display: block;
+    
     right: 1%;
     list-style-type: none;
-    width: 26vw;
+    height: 10vh;
     
 }
 
@@ -60,32 +60,4 @@ header {
     height: 84%;
     
     
-}
-
-
-main {
-    height: 50vh;
-}
-
-
-/*footer css*/
-
-footer {
-    background-color: #6ce5e8;
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    border-radius: 20px ;    
-    text-align: center;
-   
-}
-
-.footer-info {
-    margin: 0 auto;
-    margin-top: 6vh;
-    color: rgb(14, 150, 59);
-}
-
-.outside-links {
-    margin-top: 6vh;
 }

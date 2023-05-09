@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+/*General rules for general elements*/
+body {
+    font-family: Gugi;
+    width: 100%;
+    margin: 0 ;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited { text-decoration: none; color:rgb(0, 0, 0); }
+a:hover { text-decoration: none; color:rgb(255, 255, 255); }
+a:focus { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
+
+
+/* Header parts of the html pages */
+header {
+    display: flex;
+    background-color: #6ce5e8;
+    
+    height: 20vh;
+    width: 100%;
+    border-radius: 20px ;
+}
+
+.title {
+   
+    margin-top: 5vh;
+    width: 55vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 30px;
+    border: solid black 1px;
+    
+}
+
+
+
+.page-links {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 1%;
+    list-style-type: none;
+    width: 26vw;
+    border: solid black 1px;
+}
+
+
+.icon {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    
+    height: 84%;
+    
+    
+}
+
+
+main {
+    height: 50vh;
+}
+
+
+/*footer css*/
+
+footer {
+    background-color: #6ce5e8;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    border-radius: 20px ;    
+    text-align: center;
+   
+}
+
+.footer-info {
+    margin: 0 auto;
+    margin-top: 6vh;
+    color: rgb(14, 150, 59);
+}
+
+.outside-links {
+    margin-top: 6vh;
+}

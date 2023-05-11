@@ -23,7 +23,7 @@ a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
 header {
     display: flex;
     background-color: #6ce5e8;
-    
+    justify-content: space-around;
     height: 20vh;
     width: 100%;
     border-radius: 20px ;
@@ -42,13 +42,28 @@ header {
 
 
 .page-links {
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    right: 1%;
-    list-style-type: none;
-    width: 26vw;
+    background-color: #6ce5e8;
+    border: seagreen solid 1px;
+    padding: 0;
+    text-align: center;
     
+    right: 10vw;
+    list-style-type: none;
+    width: 10vw;
+    
+    
+}
+
+.page-links li:first-child {
+    display: block;
+}
+
+.page-links li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
 }
 
 
@@ -56,15 +71,55 @@ header {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
-    
+    position: relative;
     height: 84%;
     
     
 }
 
 
+main div {
+    margin: 0 auto;
+    background-color: rgb(177, 175, 175);
+    width: 95vw;
+    height: 40vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: solid grey 1px;
+}
+
 main {
-    height: 50vh;
+    align-items: center;
+}
+
+.company-spotlight-box {
+    display: flex;
+    height: 47vh;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.spotlight {
+    width: 45vw;
+    margin-top: 3vh;
+}
+
+.weather-events-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: transparent;
+}
+
+.weather {
+    width: 35vw;
+    height: 37vh;
+    
+}
+
+.events {
+    width: 55vw;
+    height: 37vh;
 }
 
 

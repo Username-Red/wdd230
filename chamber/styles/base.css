@@ -23,7 +23,7 @@ a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
 header {
     display: flex;
     background-color: #6ce5e8;
-    
+    justify-content: space-around;
     height: 20vh;
     width: 100%;
     border-radius: 20px ;
@@ -37,18 +37,33 @@ header {
     text-align: center;
     font-size: 30px;
     
-    
 }
 
 
 
 .page-links {
-    display: block;
+    background-color: #6ce5e8;
+    border: seagreen solid 1px;
+    padding: 0;
+    text-align: center;
     
-    right: 1%;
+    right: 10vw;
     list-style-type: none;
-    height: 10vh;
+    width: 10vw;
     
+    
+}
+
+.page-links li:first-child {
+    display: block;
+}
+
+.page-links li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
 }
 
 
@@ -56,8 +71,69 @@ header {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
-    
+    position: relative;
     height: 84%;
     
     
+}
+
+
+main {
+    align-items: center;
+    margin: 0 auto;
+}
+
+main div {
+    margin: 0 auto;
+    background-color: rgb(177, 175, 175);
+    width: 95vw;
+    height: 40vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: solid grey 1px;
+}
+
+.company-spotlight-box {
+    z-index: -1;
+    height: 90vh;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.spotlight {
+    width: 70vw;
+    margin-top: 3vh;
+}
+
+.weather-events-box {
+    display: block;
+    justify-content: space-between;
+    background-color: transparent;
+    border: transparent;
+    height: 82vh;
+    
+}
+
+
+
+/*footer css*/
+
+footer {
+    background-color: #6ce5e8;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    border-radius: 20px ;    
+    text-align: center;
+   
+}
+
+.footer-info {
+    margin: 0 auto;
+    margin-top: 6vh;
+    color: rgb(14, 150, 59);
+}
+
+.outside-links {
+    margin-top: 6vh;
 }

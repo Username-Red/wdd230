@@ -183,10 +183,22 @@ footer {
 
 .footer-info {
     margin: 0 auto;
-    margin-top: 6vh;
+    margin-top: 15vh;
     color: rgb(14, 150, 59);
+    
+    
+    
+    height: fit-content;
 }
 
 .outside-links {
     margin-top: 6vh;
+    
+}
+
+.map {
+    
+    height: fit-content;
+    margin-top: 4%;
+    margin-left: 20px;
 }

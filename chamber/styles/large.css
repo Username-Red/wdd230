@@ -47,30 +47,41 @@ header {
 
 
 .page-links {
-    background-color: #6ce5e8;
-    border: seagreen solid 1px;
+    
+    display: flex;
     padding: 0;
     text-align: center;
+    justify-content: space-around;
+    flex: 1 1 100%;
     
     right: 10vw;
+    width: 40vw;
     list-style-type: none;
-    width: 10vw;
+    
     
     
 }
 
 .page-links li:first-child {
-    display: block;
-}
-
-.page-links li {
     display: none;
 }
 
-.responsive li {
-    display: block;
+.extra-stuff {
+    display: flex;
+    
+    align-items: center;
+    justify-items: center;
 }
 
+.insta-logo {
+    
+    width: 3vw;
+}
+
+.discord-logo {
+   
+    width: 3vw;
+}
 
 .icon {
     margin-top: 1%;

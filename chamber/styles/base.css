@@ -66,6 +66,22 @@ header {
     display: block;
 }
 
+.extra-stuff {
+    display: block;
+    
+    
+}
+
+.insta-logo {
+    margin: 0 auto;
+    width: 3vw;
+}
+
+.discord-logo {
+    margin: 0 auto;
+    width: 3vw;
+}
+
 
 .icon {
     margin-top: 1%;

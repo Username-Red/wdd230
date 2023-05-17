@@ -26,7 +26,7 @@ h1 {
 }
 header > span {
     font-size: medium;
-    color: lightblue;
+    color: rgb(35, 141, 177);
 }
 
 main {
@@ -81,7 +81,7 @@ footer {
     padding-top: 5px;
     display: block;
     font-size: small;
-    color: lightblue;
+    color: rgb(35, 141, 177);
 }
 
 main {

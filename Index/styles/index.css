@@ -4,15 +4,15 @@ body {
 }
 
 header {
-    max-width: 100vw;
+    max-width: 2000px;
 }
 
 main {
-    max-width: 100vw;
+    max-width: 2000px;
 }
 
 footer {
-    max-width: 100vw;
+    max-width: 2000px;
 }
 
 .top-bit {

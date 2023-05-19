@@ -38,6 +38,7 @@ header {
 
 
 
+
 .page-links {
     display: flex;
     justify-content: space-around;
@@ -152,6 +153,7 @@ h2 {
 .design-main {
     align-items: center;
     text-align: center;
+    margin-bottom: 5vh;
 }
 
 h3 {

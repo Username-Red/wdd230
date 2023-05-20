@@ -75,7 +75,7 @@ header {
     padding: 0;
     text-align: center;
     justify-content: space-around;
-    flex: 1 1 100%;
+    
     
     right: 10vw;
     width: 40vw;
@@ -285,6 +285,7 @@ footer {
     color: rgb(14, 150, 59);
     height: fit-content;
     border-top: solid black 1px;
+    font-size: 13px;
 }
 
 .outside-links {

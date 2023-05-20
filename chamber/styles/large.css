@@ -30,11 +30,12 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
-    margin-top: 5fr;
+    
     height: 30vh;
-    width: 100vw;
+    width: 100%;
     background-color: #6ce5e8;
     border-radius: 20px ;
+    padding: 0%;
 }
 
 .top-bit {
@@ -42,7 +43,7 @@ header {
     background-color: #6ce5e8;
     justify-content: space-around;
     height: 20vh;
-    width: 100vw;
+    width: 98vw;
     
 }
 

@@ -200,7 +200,24 @@ main {
     margin-top: 2vh;
     height: 48%;
     width: 100%;
-    
+    text-align: center;
+}
+
+.weather h1 {
+    font-size: 3vh;
+}
+
+.weather-icon {
+    width: 18%;
+    margin: 0 auto;
+}
+
+.wind-box {
+    font-size: 1.9vh;
+    margin: 0 auto;
+    width: 90%;
+    height: min-content;
+    border-top: solid black 1px;
 }
 
 .events {

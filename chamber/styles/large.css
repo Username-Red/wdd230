@@ -205,6 +205,11 @@ main {
 
 .weather h1 {
     font-size: 3vh;
+    margin: 0 auto;
+}
+.weather p {
+    margin: 0 auto;
+    margin-top: 1vh;
 }
 
 .weather-icon {
@@ -215,8 +220,8 @@ main {
 .wind-box {
     font-size: 1.9vh;
     margin: 0 auto;
+    margin-top: 1vh;
     width: 90%;
-    height: min-content;
     border-top: solid black 1px;
 }
 

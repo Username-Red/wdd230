@@ -245,29 +245,52 @@ main {
     align-content: space-between;
     grid-row: 1 / 4;
     grid-column: 3 / 4;
+    background-color: pink;
 }
 
 .spotlight {
-    height: 40%;
+    height: 30%;
     width: 90%;
     margin: 0 auto;
-    margin-top: 3vh;
-    height: 45%;
+    margin-top: 2vh;
+    font-size: 2vh;
     text-align: center;
     
 }
 
 .spotlight .icon {
-    width: 35%;
+    width: 30%;
     height: 30%
 }
 
 .spotlight h1 {
-    font-size: 3vh;
+    font-size: 2.5vh;
+    margin-top: 0;
+}
+
+.third-spotlight {
+    height: 30%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2vh;
+   
+    text-align: center;
+    font-size: 2vh;
+}
+
+.third-spotlight .icon {
+    width: 30%;
+    height: 30%
+}
+
+.third-spotlight h1 {
+    font-size: 2.5vh;
+    margin-top: 0;
 }
 
 .spotlight-box p {
     margin: 0 auto;
+    font-size: 2vh;
 }
 
 .spotlight-box {

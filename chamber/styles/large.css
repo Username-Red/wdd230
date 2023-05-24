@@ -245,7 +245,7 @@ main {
     align-content: space-between;
     grid-row: 1 / 4;
     grid-column: 3 / 4;
-    background-color: pink;
+ 
 }
 
 .spotlight {

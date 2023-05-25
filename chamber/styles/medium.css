@@ -61,7 +61,18 @@ header {
     
 }
 
+.title h1 {
+    margin: 0 auto;
+    width: 35vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 30px;
+}
 
+.title p {
+    margin: 0 auto;
+    margin-top: -4vh;
+}
 
 .page-links {
     background-color: #6ce5e8;
@@ -237,6 +248,7 @@ main div {
 }
 
 main {
+    margin-top: 5vh;
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;

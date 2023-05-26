@@ -1,6 +1,3 @@
-var phrase = "sup bitches";
-document.getElementsByClassName("chill")[0].textContent = phrase;
-
 
 var temp = document.getElementsByClassName("temp")[0].textContent;
 var speed = document.getElementsByClassName("speed")[0].textContent;

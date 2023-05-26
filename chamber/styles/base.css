@@ -72,6 +72,7 @@ header {
 .title p {
     margin: 0 auto;
     margin-top: -8vh;
+    font-size: smaller;
 }
 
 .page-links {

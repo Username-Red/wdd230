@@ -276,19 +276,51 @@ main div {
 
 .weather h1 {
     font-size: 3vh;
+    margin: 0 auto;
+}
+.weather p {
+    margin: 0 auto;
+    margin-top: 1vh;
 }
 
 .weather-icon {
-    width: 10%;
     margin: 0 auto;
+    height: 8vh;
 }
 
 .wind-box {
     font-size: 1.9vh;
     margin: 0 auto;
     width: 90%;
-    height: min-content;
+    height: 10vh;
     border-top: solid black 1px;
+}
+
+.temp-box {
+    display: flex;
+    width: 15vw;
+    margin: 0 auto;
+}
+
+.temp {
+    margin: 0;
+    width: 30%;
+}
+
+.wind-speed {
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    font-size: larger;
+}
+
+.wind-chill {
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    font-size: larger;
 }
 
 

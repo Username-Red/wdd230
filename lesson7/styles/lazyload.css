@@ -19,29 +19,22 @@ picture {
     margin: 0 auto;
 }
 
+img {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
 
 
 img[data-src] {
     filter: blur(0.2em);
-  }
+}
   
 img {
     filter: blur(0em);
-    transition: filters 2.5s;
-    width: 300px;
-    height: 400px;
-    object-fit: contain;
-  }
-  
-
-/* .fade-in {
-    opacity: 0;
-    transition: opacity 250ms ease-in;
+    transition: 1.5s;
 }
-
-.fade-in.appear {
-    opacity: 1;
-} */
   
+
 
 

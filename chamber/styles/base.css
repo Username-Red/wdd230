@@ -326,6 +326,28 @@ main div {
 
 
 
+/*discover page css*/
+.discover-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    text-align: center;
+    height: 150vh;
+}
+
+.img-info-box img {
+    margin-top: 2.5vh;
+    height: 20vh;
+    border-radius: 10px;
+
+}
+
+.img-info-box {
+    display: flex;
+    height: 25vh;
+    justify-content: space-around;
+}
+
 /*footer css*/
 
 footer {

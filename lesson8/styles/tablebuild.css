@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+body {
+    display: block;
+    font-family: Gugi;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border: solid rgb(168, 168, 168) 1px;
+    color: black;
+}
+.blank-box {
+    color: black;
+    background-color: black;
+}
+
+.edition-table {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+tr {
+    background-color: white;
+    color: black;
+}
+
+tr:nth-child(3) {
+    background-color: rgb(202, 202, 202);
+}

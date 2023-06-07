@@ -410,6 +410,13 @@ form .above input:required:valid {
     border-left: greenyellow solid 6px;
 }
 
+.thanks-message {
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
 /*footer css*/
 
 footer {

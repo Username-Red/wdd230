@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Join page for the cape town chamber of commerce website">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/base.css" media="(max-width: 649px)">
+    <link rel="stylesheet" href="styles/medium.css" media="(max-width: 894px) and (min-width: 650px)">
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 895px)">
+
+    <title>Discover</title>
+</head>
+<body>
+    <header>
+        
+
+        <div class="top-bit">
+            <a class="icon" href="https://username-red.github.io/wdd230/chamber/index.html">
+                <img class="icon" src="images/sa-logo.webp" alt="South african flag">
+            </a>
+    
+            <div class="title">
+                <h1>Cape Town</h1>
+                <p>Chamber of Commerce</p>
+            </div>
+           
+            
+    
+            
+    
+            <nav>
+                
+                <ul class="page-links">
+                    <li> <a href="######" onclick="toggleMenu()">Menu</a></li>
+                    <li> <a href="discover.html">Discover</a></li>
+                    <li> <a href="######">Directory</a></li>
+                    <li> <a href="######">Join</a></li>
+                    <li> <a href="######">Contact</a></li>
+                    
+                </ul>
+    
+                
+            </nav>
+
+            <div class="extra-stuff" >
+                <a target="_blank" href="https://www.instagram.com/cityofcapetown/?hl=en">
+                    <img class="insta-logo" src="images/instagram.png" alt="instagram logo">
+                </a>
+                <a target="_blank" href="https://www.facebook.com/CityofCT/">
+                    <img class="fb-logo" src="images/facebook.png" alt="facebook logo by Pixel perfect">
+                </a>
+        
+               
+            </div>
+
+        </div>
+       
+
+        <div class="time-box">
+            <time datetime="2003-09-01"></time>
+            
+        </div>
+        
+    </header>
+
+
+
+
+    <main>
+        <form class="join-form" method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Profile Information</legend>
+                <label class="above">First Name* <input type="text" name="fname" required></label>
+                <label class="above">Last Name* <input type="text" name="lname" required></label>
+                <label class="above">Business Position <input type="text" name="businessPosition"></label>
+                <label class="above">Email* <input type="email" name="email" required placeholder="somedork@gmail.com"></label>
+                <label class="above">Cellphone Number* <input type="tel" placeholder="1234567890"required></label>
+                <label class="above">Business Name* <input type="text" required></label>
+            </fieldset>
+            
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="audience" value="np">Non-profit</label>
+                <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="audience" value="silver">Silver</label>
+                <label class="sbs"><input type="radio" name="audience" value="gold">Gold</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Description</legend>
+                <label><textarea class="user-textbox" name="userDescription" cols="30" rows="10"></textarea></label>
+                
+            </fieldset>
+
+            <input type="submit" value="Join Us" class="submitBtn">
+        </form>
+
+
+    </main>
+
+    
+
+
+
+
+
+    <footer>
+
+
+        <div class="footer-top">
+            <a class="icon" href="https://username-red.github.io/wdd230/lesson3/index.html">
+                <img class="footer-icon" src="images/sa-logo.png" alt="South african flag">
+            </a>
+    
+            <div class="outside-links">
+                <span>Contact Us</span>
+                <ul>
+                    <li><a target="_blank" href="https://www.instagram.com/cityofcapetown/?hl=en">Cape Town Instagram</a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/CityofCT/">Cape Town Facebook</a></li>
+                </ul>
+            </div>
+            
+    
+            <a class="map" href="https://www.google.com/maps/place/Cape+Town/@-33.915538,18.6560594,9z/data=!3m1!4b1!4m6!3m5!1s0x1dcc500f8826eed7:0x687fe1fc2828aa87!8m2!3d-33.9248685!4d18.4240553!16zL20vMDF5ajI">Map</a>
+    
+        </div>
+        
+
+        <div class="footer-info">
+            &copy;<span id="year"></span> | Jared "Red" Greeff | Cape Town Chamber of Commerce| WDD 230 Project | <span id="lst-updt"></span>
+           
+            
+        </div>
+
+        
+
+    </footer>
+
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/lazyload.js" defer></script>
+
+</body>
+</html>

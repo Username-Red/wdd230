@@ -415,10 +415,12 @@ form .above input:required:valid {
 }
 
 .thanks-message {
+    text-align: center;
     padding: 2rem;
     margin: 0 auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    border-radius: 10px;
 }
 
 /*footer css*/

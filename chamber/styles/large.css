@@ -133,7 +133,6 @@ header {
 }
 
 main {
-    width: 98vw;
     height: fit-content;
     align-items: center;
 }
@@ -350,7 +349,7 @@ main div {
     background-color:  #6ce5e8;
     
 }
-main
+
 /*discover page css*/
 .discover-main {
     display: grid;
@@ -378,6 +377,7 @@ main
     display: flex;
     height: 25vh;
     justify-content: space-around;
+    margin-bottom: 2vh;
 }
 
 
@@ -451,6 +451,7 @@ form .above input:required:valid {
     margin-bottom: 5vh;
     border-radius: 10px;
 }
+
 
 /*footer css*/
 

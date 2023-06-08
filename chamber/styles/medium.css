@@ -354,7 +354,13 @@ main {
 
 /* -----------JOIN US PAGE-------------- */
 
+.job-position-box:valid {
+    border: greenyellow solid 1px;
+}
 
+.job-position-box:invalid {
+    border: rgb(172, 0, 0) solid 2px;
+}
 
 form fieldset {
     margin: 2rem 0;
@@ -372,7 +378,7 @@ form legend {
 form .above, form div {
     display: block;
     padding-top: 1rem;
-    color: #03a10b;
+    color:  #03a10b;
     font-size: .8rem;
 }
 
@@ -397,7 +403,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #03a10b;
+    background-color:  #03a10b;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

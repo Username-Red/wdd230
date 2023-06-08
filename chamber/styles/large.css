@@ -383,7 +383,9 @@ main div {
 
 /* -----------JOIN US PAGE-------------- */
 
-
+.blanker {
+    display: none;
+}
 
 form fieldset {
     margin: 2rem 0;

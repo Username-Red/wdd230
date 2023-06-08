@@ -60,7 +60,7 @@
        
 
         <div class="time-box">
-            <time datetime="2003-09-01"></time>
+            <time id="time" datetime="2003-09-01"></time>
             
         </div>
         
@@ -75,7 +75,7 @@
                 <legend>Profile Information</legend>
                 <label class="above">First Name* <input type="text" name="fname" required></label>
                 <label class="above">Last Name* <input type="text" name="lname" required></label>
-                <label class="above">Business Position <input type="text" name="businessPosition"></label>
+                <label class="above">Business Position <input class="job-position-box" type="text" name="businessPosition" pattern="[a-zA-Z0-9\-\s]{7,}"></label>
                 <label class="above">Email* <input type="email" name="email" required placeholder="somedork@gmail.com"></label>
                 <label class="above">Cellphone Number* <input type="tel" placeholder="1234567890"required></label>
                 <label class="above">Business Name* <input type="text" required></label>
@@ -143,6 +143,6 @@
     <script src="scripts/dates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/lazyload.js" defer></script>
-
+    <script src="scripts/join.js"></script>
 </body>
 </html>

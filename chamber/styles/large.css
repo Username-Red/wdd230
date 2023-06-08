@@ -405,6 +405,14 @@ form .above, form div {
     font-size: .8rem;
 }
 
+.job-position-box:valid {
+    border: greenyellow solid 1px;
+}
+
+.job-position-box:invalid {
+    border: rgb(172, 0, 0) solid 2px;
+}
+
 form .above input, form .above select {
     -webkit-appearance: none;
     display: block;

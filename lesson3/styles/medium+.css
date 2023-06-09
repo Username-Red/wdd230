@@ -21,31 +21,77 @@ a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
 
 /* Header parts of the html pages */
 header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    
+    height: 30vh;
+    width: 100%;
+    background-color: #6ce5e8;
+    border-radius: 20px ;
+    padding: 0%;
+}
+
+.top-bit {
     display: flex;
     background-color: #6ce5e8;
-    
+    justify-content: space-around;
     height: 20vh;
-    width: 100%;
-    border-radius: 20px ;
+    width: 98vw;
+    
+}
+
+.time-box {
+    position: relative;
+    bottom: 5px;
+    margin: 0 auto;
+    height: 5vh;
+    width: 94vw;
+    background-color: white;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .title {
-    margin: 0 auto;
+   
     margin-top: 5vh;
-    width: 25vw;
+    width: 35vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 30px;
     
 }
 
+.title h1 {
+    margin: 0 auto;
+    width: 35vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title p {
+    margin: 0 auto;
+    margin-top: -8vh;
+    font-size: smaller;
+}
 
 
 
 .page-links {
+    
     display: flex;
+    padding: 0;
+    text-align: center;
     justify-content: space-around;
-    position: absolute;
-    right: 1%;
+    
+    
+    right: 10vw;
+    width: 40vw;
     list-style-type: none;
-    width: 26vw;
+    
+    
+    
 }
 
 
@@ -174,7 +220,7 @@ footer {
 .footer-info {
     margin: 0 auto;
     margin-top: 6vh;
-    color: rgb(14, 150, 59);
+    color: rgb(0, 0, 0);
 }
 
 .outside-links {

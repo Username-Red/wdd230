@@ -1,0 +1,65 @@
+
+@media(width < 700px) {
+
+    /* Header parts of the html pages */
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    
+    height: 30vh;
+    width: 100vw;
+    background-color: #6ce5e8;
+    border-radius: 20px ;
+}
+
+.top-bit {
+    display: flex;
+    background-color: #6ce5e8;
+    justify-content: space-around;
+    height: 20vh;
+    width: 100vw;
+    
+}
+
+.title {
+   
+    margin-top: 5vh;
+    width: 55vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.title h1 {
+    margin: 0 auto;
+    width: 35vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title p {
+    margin: 0 auto;
+    margin-top: -8vh;
+    font-size: smaller;
+}
+
+.page-links {
+    background-color: #6ce5e8;
+    padding: 0;
+    text-align: center;
+    
+    right: 10vw;
+    list-style-type: none;
+    width: 15vw;
+    
+    
+}
+    .page-links {
+        display: block;
+    }
+
+} 
+

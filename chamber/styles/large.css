@@ -204,6 +204,7 @@ main {
 .join-us {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
+    height: 37vh;
     text-align: center;
 }
 

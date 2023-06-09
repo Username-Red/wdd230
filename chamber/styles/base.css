@@ -191,8 +191,7 @@ main {
 }
 
 .join-us {
-    
-    text-align: center;
+    display: none;
 }
 
 .join-us .join-button {
@@ -269,7 +268,7 @@ main div {
 
 .weather {
     margin: 0 auto;
-    
+    margin-top: 4vh;
     height: 48%;
     width: 100%;
     text-align: center;
@@ -300,6 +299,7 @@ main div {
 .temp-box {
     display: flex;
     width: 15vw;
+    height: 7vh;
     margin: 0 auto;
 }
 
@@ -312,6 +312,7 @@ main div {
     justify-content: space-between;
     display: flex;
     width: 60%;
+    height: 7vh;
     margin: 0 auto;
     font-size: larger;
 }
@@ -320,6 +321,7 @@ main div {
     justify-content: space-between;
     display: flex;
     width: 50%;
+    height: 7vh;
     margin: 0 auto;
     font-size: larger;
 }

@@ -159,9 +159,6 @@ header {
 
 .weather {
     margin: 0 auto;
-    
-    height: 48%;
-    width: 100%;
     text-align: center;
 }
 
@@ -190,6 +187,7 @@ header {
 .temp-box {
     display: flex;
     width: 15vw;
+    height: 7vh;
     margin: 0 auto;
 }
 
@@ -202,6 +200,7 @@ header {
     justify-content: space-between;
     display: flex;
     width: 60%;
+    height: 7vh;
     margin: 0 auto;
     font-size: larger;
 }
@@ -210,6 +209,7 @@ header {
     justify-content: space-between;
     display: flex;
     width: 50%;
+    height: 7vh;
     margin: 0 auto;
     font-size: larger;
 }
@@ -403,7 +403,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color:  #000a64;
+    background-color:  #03a10b;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

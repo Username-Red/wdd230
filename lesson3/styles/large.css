@@ -71,3 +71,7 @@ header {
     
     
 }
+
+.blank-li {
+    list-style-type: none;
+}

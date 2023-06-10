@@ -145,6 +145,10 @@ h2 {
     
 }
 
+.blank-li {
+    list-style-type: none;
+}
+
 .main-TA {
     display: flex;
     justify-content: space-around;

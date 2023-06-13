@@ -466,6 +466,14 @@ form .above input:required:valid {
 }
 
 
+.directory-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+     
+}
+
+
 /*footer css*/
 
 footer {

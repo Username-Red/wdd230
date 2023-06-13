@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 
+@media only screen and (max-width: 649px) {
+
+
+
+
+
 /*General rules for general elements*/
 body {
     font-family: Gugi;
@@ -470,4 +476,6 @@ footer {
 .footer-icon {
     height: 15vh;
     
+}
+
 }

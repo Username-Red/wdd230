@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Join page for the cape town chamber of commerce website">
+    <meta name="description" content="The Discover page for the cape town chamber of commerce website">
 
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
@@ -30,7 +30,6 @@
             
     
             
-    
             <nav>
                 
                 <ul class="page-links">
@@ -60,7 +59,7 @@
        
 
         <div class="time-box">
-            <time id="time" datetime="2003-09-01"></time>
+            <time datetime="2003-09-01"></time>
             
         </div>
         
@@ -69,41 +68,11 @@
 
 
 
-    <main>
-        <form class="join-form" method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Profile Information</legend>
-                <label class="above">First Name* <input type="text" name="fname" required></label>
-                <label class="above">Last Name* <input type="text" name="lname" required></label>
-                <label class="above">Business Position <input class="job-position-box" type="text" name="businessPosition" pattern="[a-zA-Z0-9\-\s]{7,}"></label>
-                <label class="above">Email* <input type="email" name="email" required placeholder="somedork@gmail.com"></label>
-                <label class="above">Cellphone Number* <input type="tel" placeholder="1234567890" required></label>
-                <label class="above">Business Name* <input type="text" required></label>
-            </fieldset>
-            
+    <main class="directory-main">
 
-            <fieldset>
-                <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio" name="audience" value="np">Non-profit</label>
-                <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze</label>
-                <label class="sbs"><input type="radio" name="audience" value="silver">Silver</label>
-                <label class="sbs"><input type="radio" name="audience" value="gold">Gold</label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Description</legend>
-                <label>.<textarea class="user-textbox" name="userDescription" cols="30" rows="10"></textarea></label>
-                
-                
-            </fieldset>
-
-            <input type="submit" value="Join Us" class="submitBtn">
-        </form>
-
-
+        
     </main>
 
-    
 
 
 
@@ -144,6 +113,6 @@
     <script src="scripts/dates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/lazyload.js" defer></script>
-    <script src="scripts/join.js"></script>
+    <script src="scripts/last-visited.js"></script>
 </body>
 </html>

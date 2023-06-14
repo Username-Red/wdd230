@@ -36,14 +36,13 @@ const displayBusinessesCard = (businesses) => {
         location.textContent = `${business.address}`
         cellNum.textContent = `${business.phoneNumber}`
 
-        website.textContent = `${business.website}`
+        website.textContent = `Go to the ${business.name} website`
         website.setAttribute('href', business.website);
 
         logo.setAttribute('src', business.image);
         logo.setAttribute('alt', `Logo of ${business.name}`);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '340');
-        logo.setAttribute('height', '440');
+        
 
         //image, location, number, webpage
         card.appendChild(logo);

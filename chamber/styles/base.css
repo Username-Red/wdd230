@@ -439,20 +439,70 @@ form .above input:required:valid {
 .directory-main {
     display: block;
     text-align: center;
+    
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+
+.card{
+    height: fit-content;
+    margin-top: 2.5vh;
+    display: block;
+    background-color: white;
+    margin-bottom: 2.5vh;
 }
 
 section {
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    margin-top: 2vh;
     background-color: #999;
     padding: 10px;
     height: 90%;
 }
 
 section img {
+    max-width: 50%;
     object-fit: contain;
     height: 15%;
 }
+
+.list {
+    
+    height: fit-content;
+    margin-top: 2.5vh;
+    display: block;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2.5vh;
+}
+
+tr {
+    height: 30px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #999;
+    color: #000000;
+    
+}
+
+td {
+    width: 30%;
+}
+
+table {
+    margin: 0 auto;
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+    width: 98%;
+}
+
+table:nth-child(even) {
+    background-color: #999;
+}
+
+
 
 
 /*footer css*/

@@ -14,7 +14,7 @@
         "name": "Lego",
         "address": "33 Bath Road, Slough, SL1 3UF, United Kingdom",
         "phoneNumber": "0800 055 5651",
-        "website": "lego.com",
+        "website": "https://lego.com",
         "image": "images/lego.svg",
         "membershipLv": "N/A"
     },
@@ -35,7 +35,7 @@
         "address": "4072 E Arch Drive Meridian",
         "phoneNumber": "(208) 631-0640",
         "website": "https://surgewebdesign.com/",
-        "image": "images/surgewebdesign.com/",
+        "image": "images/surgewebdesign.png",
         "membershipLv": ""
     },
 

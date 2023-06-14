@@ -465,14 +465,65 @@ form .above input:required:valid {
     border-radius: 10px;
 }
 
-
 .directory-main {
+    text-align: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.card{
+    margin-top: 2.5vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-     
+    text-align: center;
+    background-color: white;
+    margin-bottom: 2.5vh;
 }
 
+section {
+    background-color: #999;
+    padding: 10px;
+    height: 90%;
+}
+
+section img {
+    max-width: 98%;
+    object-fit: contain;
+    height: 50%;
+}
+
+.list {
+    margin-top: 2.5vh;
+    display: block;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2.5vh;
+}
+
+tr {
+    height: 30px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #999;
+    color: #000000;
+    
+}
+
+td {
+    width: 25%;
+}
+
+table {
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+    width: 98%;
+}
+
+table:nth-child(even) {
+    background-color: #999;
+}
 
 /*footer css*/
 

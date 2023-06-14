@@ -434,6 +434,27 @@ form .above input:required:valid {
     border-radius: 10px;
 }
 
+.directory-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+section {
+    background-color: #999;
+    padding: 10px;
+    height: 90%;
+}
+
+section img {
+    max-width: 78%;
+    object-fit: contain;
+    height: 50%;
+}
+
+
+
 /*footer css*/
 
 footer {
@@ -488,3 +509,4 @@ footer {
 }
 
 }
+

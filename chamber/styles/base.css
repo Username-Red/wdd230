@@ -433,6 +433,28 @@ form .above input:required:valid {
     border-radius: 10px;
 }
 
+
+
+
+.directory-main {
+    display: block;
+    text-align: center;
+}
+
+section {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    background-color: #999;
+    padding: 10px;
+    height: 90%;
+}
+
+section img {
+    object-fit: contain;
+    height: 15%;
+}
+
+
 /*footer css*/
 
 footer {

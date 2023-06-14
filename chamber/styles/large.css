@@ -466,12 +466,14 @@ form .above input:required:valid {
 }
 
 .directory-main {
+    margin-top: 2.5vh;
     text-align: center;
     width: 98%;
     margin: 0 auto;
 }
 
 .directory-btn {
+    margin-top: 2.5vh;
     height: 44px;
     width: 50px;
 }

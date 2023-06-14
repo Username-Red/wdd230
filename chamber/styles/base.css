@@ -437,6 +437,7 @@ form .above input:required:valid {
 
 
 .directory-main {
+    margin-top: 2.5vh;
     display: block;
     text-align: center;
     
@@ -445,6 +446,7 @@ form .above input:required:valid {
 }
 
 .directory-btn {
+    margin-top: 2.5vh;
     height: 44px;
     width: 50px;
 }

@@ -444,7 +444,10 @@ form .above input:required:valid {
     margin: 0 auto;
 }
 
-
+.directory-btn {
+    height: 44px;
+    width: 50px;
+}
 
 .card{
     height: fit-content;

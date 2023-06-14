@@ -471,6 +471,11 @@ form .above input:required:valid {
     margin: 0 auto;
 }
 
+.directory-btn {
+    height: 44px;
+    width: 50px;
+}
+
 .card{
     margin-top: 2.5vh;
     display: grid;

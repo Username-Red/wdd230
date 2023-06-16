@@ -425,6 +425,10 @@ form .above input:required:valid {
     border-left: greenyellow solid 6px;
 }
 
+.hidden-date {
+    display: none;
+}
+
 .thanks-message {
     text-align: center;
     padding: 2rem;

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+body {
+    text-align: center;
+    font-family: Gugi, sans-serif;
+}
+
+.weather-background {
+    background-image: url("images/Eladrin\ Wizard\ Commission\,\ Erin\ Petersen.jpg");
+    border: solid red 2px;
+}
+
+h1 {
+    border-radius: 20px;
+    background-color: rgba(0, 110, 200, 100);
+    width: 480px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+figure {
+    border-radius: 20px;
+    background-color: rgba(0, 110, 200, 100);
+    color: white;
+    width: 480px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.content {
+    border-radius: 20px;
+    width: 480px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color: rgba(73, 217, 228, 0.651);
+}

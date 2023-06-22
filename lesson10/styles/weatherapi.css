@@ -5,11 +5,6 @@ body {
     font-family: Gugi, sans-serif;
 }
 
-.weather-background {
-    background-image: url("images/Eladrin\ Wizard\ Commission\,\ Erin\ Petersen.jpg");
-    border: solid red 2px;
-}
-
 h1 {
     border-radius: 20px;
     background-color: rgba(0, 110, 200, 100);

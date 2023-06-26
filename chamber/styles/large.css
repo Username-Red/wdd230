@@ -538,6 +538,24 @@ table:nth-child(even) {
     background-color: #999;
 }
 
+legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+fieldset {
+    color: #445ba9;
+}
+.contact-main {
+    text-align: center;
+}
+
+.submitBtn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /*footer css*/
 
 footer {

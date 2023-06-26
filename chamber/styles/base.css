@@ -487,7 +487,8 @@ section img {
 }
 
 tr {
-    height: 30px;
+    height: 60px;
+    outline: solid black;
 }
 
 tr:nth-of-type(even) {
@@ -498,6 +499,7 @@ tr:nth-of-type(even) {
 
 td {
     width: 30%;
+    outline: solid black 1px;
 }
 
 table {

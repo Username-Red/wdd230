@@ -5,8 +5,8 @@
         "address": "31 Ga Koro, Mata Nui, Spherus Magna",
         "phoneNumber": "(+27) 74 530 0716",
         "website": "https://username-red.github.io/wdd130/tcg-matrix/index.html",
-        "image": "images/TCG-Matrix.png",
-        "membershipLv": "N/A"
+        "image": "TCG-Matrix.png",
+        "membershipLv": "Gold"
     },
 
     {
@@ -15,8 +15,8 @@
         "address": "33 Bath Road, Slough, SL1 3UF, United Kingdom",
         "phoneNumber": "0800 055 5651",
         "website": "https://lego.com",
-        "image": "images/lego.svg",
-        "membershipLv": "N/A"
+        "image": "lego.svg",
+        "membershipLv": "Non-profit"
     },
 
     {
@@ -25,8 +25,8 @@
         "address": "2115 S Vista Avenue Boise ",
         "phoneNumber": "(208) 342 9386",
         "website": "https://www.idahowebsites.com/",
-        "image": "images/idweb.svg",
-        "membershipLv": ""
+        "image": "idweb.svg",
+        "membershipLv": "Silver"
     },
 
     {
@@ -35,8 +35,8 @@
         "address": "4072 E Arch Drive Meridian",
         "phoneNumber": "(208) 631-0640",
         "website": "https://surgewebdesign.com/",
-        "image": "images/surgewebdesign.png",
-        "membershipLv": ""
+        "image": "surgewebdesign.png",
+        "membershipLv": "Silver"
     },
 
     {
@@ -45,8 +45,8 @@
         "address": "1788 E Summerplace Court Meridian",
         "phoneNumber": "(208) 631-4984",
         "website": "https://graphiczen.com/",
-        "image": "images/graphiczen.svg",
-        "membershipLv": ""
+        "image": "graphiczen.svg",
+        "membershipLv": "Silver"
     },
 
     {
@@ -55,8 +55,8 @@
         "address": "1215 3rd Steet Nampa",
         "phoneNumber": "(208) 461-5070",
         "website": "https://www.peppershock.com/",
-        "image": "images/peppershock.png",
-        "membershipLv": ""
+        "image": "peppershock.png",
+        "membershipLv": "Gold"
     },
 
     {
@@ -65,8 +65,8 @@
         "address": "1725 E Overland Road Meridian",
         "phoneNumber": "(208) 888-4073",
         "website": "https://www.metroexpresscarwash.com/",
-        "image": "images/metroexpress.png",
-        "membershipLv": ""
+        "image": "metroexpress.png",
+        "membershipLv": "Bronze"
     },
 
     {
@@ -75,8 +75,8 @@
         "address": "Star Idaho",
         "phoneNumber": "(208) 488-5810",
         "website": "https://flashtechnicalservices.com/",
-        "image": "images/flashtechservices.png",
-        "membershipLv": ""
+        "image": "flashtechservices.png",
+        "membershipLv": "Silver"
     },
 
     {
@@ -85,8 +85,8 @@
         "address": "4600 150th Ave. NE Redmond, WA 98052-5113 U.S.A.",
         "phoneNumber": "011 390 7002",
         "website": "https://www.nintendo.co.za/",
-        "image": "images/nintendo.png",
-        "membershipLv": ""
+        "image": "nintendo.png",
+        "membershipLv": "Non-profit"
     }
 
 ]

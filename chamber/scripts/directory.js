@@ -39,7 +39,7 @@ const displayBusinessesCard = (businesses) => {
         website.textContent = `Go to the ${business.name} website`
         website.setAttribute('href', business.website);
 
-        logo.setAttribute('src', business.image);
+        logo.setAttribute('src', `images/icons/${business.image}`);
         logo.setAttribute('alt', `Logo of ${business.name}`);
         logo.setAttribute('loading', 'lazy');
         

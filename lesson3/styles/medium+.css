@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 
-
+@media only screen and ((max-width: 894px) and (min-width: 650px)) {
 
 /*General rules for general elements*/
 body {
@@ -231,4 +231,6 @@ footer {
 
 .outside-links {
     margin-top: 6vh;
+}
+
 }

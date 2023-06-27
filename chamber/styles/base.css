@@ -142,6 +142,12 @@ main {
     grid-template-rows: 5fr;
 }
 
+.index-main {
+    text-align: center;
+    display: grid;
+    
+}
+
 .hero-img-box {
     margin-top: 5vh;
     grid-row: 1 / 2;

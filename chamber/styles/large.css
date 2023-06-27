@@ -157,6 +157,7 @@ main {
 .hero-img-box {
     grid-column: 2 / 3 ;
     grid-row: 1 / 3;
+    height: 98%;
 }
 
 .hero-img {
@@ -194,6 +195,7 @@ main {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     text-align: center;
+    height: 98%;
 }
 
 .weather-events-box {
@@ -284,7 +286,7 @@ main {
 
 .events {
     margin: 0 auto;
-    height: 48%;
+    height: 50%;
     width: 100%;
     text-align: center;
     font-size: smaller;

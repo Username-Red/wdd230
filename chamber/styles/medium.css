@@ -125,6 +125,12 @@ header {
     
     
 }
+
+.index-main {
+    text-align: center;
+    display: grid;
+    
+}
 .hero-img-box {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
@@ -141,12 +147,11 @@ header {
     width: 30%;
     height: 10%;
     margin: 0 auto;
-    margin-top: 20%;
     background-color: rgb(25, 194, 81);
     color: rgb(0, 0, 0);
     border-radius: 20px;
     text-align: center;
-    
+    margin-top: 20vh;
 }
 
 .welcome {

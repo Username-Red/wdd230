@@ -346,7 +346,13 @@ main div {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     text-align: center;
-    height: 150vh;
+    height: fit-content;
+}
+
+
+.facts-box {
+    grid-row: 7/8;
+    grid-column: 1/2;
 }
 
 .img-info-box img {

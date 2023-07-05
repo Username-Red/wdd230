@@ -514,6 +514,10 @@ td {
     outline: solid black 1px;
 }
 
+td a {
+    margin: 0 auto;
+}
+
 table {
     margin: 0 auto;
     background-color: rgb(219, 219, 219);

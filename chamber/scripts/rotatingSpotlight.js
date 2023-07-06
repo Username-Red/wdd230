@@ -64,6 +64,7 @@ function generateSpotlight3(businesses) {
 
     img.setAttribute('src', `images/icons/${business.image}`);
     img.setAttribute('class', 'icon');
+    img.setAttribute('alt', `Logo of ${business.name}`);
     contactBox.setAttribute('class', 'spotlight-box');
     spotlight.setAttribute("class", "third-spotlight");
 

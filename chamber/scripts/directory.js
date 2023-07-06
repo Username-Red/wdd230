@@ -75,7 +75,7 @@ const displayBusinessesList = (businesses) => {
         cellNum.textContent = `${business.phoneNumber}`
 
        
-        webLink.textContent = ` Visit ${business.name}`
+        webLink.textContent = `Visit ${business.name}`
         webLink.setAttribute('href', business.website);
         webLink.setAttribute('target', 'blank')
         website.appendChild(webLink)

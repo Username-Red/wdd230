@@ -11,6 +11,7 @@ async function apiFetch() {
         console.log(data); // this is for testing the call
         displayResults(data);
         displaySpeed(data);
+        loadCondition(data);
         windchill(data);
       } else {
           throw Error(await response.text());
@@ -28,7 +29,11 @@ function  displayResults(weatherData) {
   
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    //captionDesc.textContent = desc;
+    
+}
+
+function loadCondition(weatherData) {
+  document.querySelector(".condition").textContent = `Condition: ${weatherData.weather[0].description}`;
 }
 
 function displaySpeed(weatherData) {

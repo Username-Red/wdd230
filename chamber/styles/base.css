@@ -133,6 +133,9 @@ header {
     
 }
 
+body {
+    margin: 0 auto;
+}
 
 main {
     align-items: center;

@@ -4,4 +4,4 @@ document.querySelector(".last-modified").textContent = new Date(document.lastMod
 const d = new Date;
 let year = d.getFullYear();
 
-document.querySelector(".year").textContent = `Last Modified: ${year}`;
+document.querySelector(".last-modified").textContent = `Last Modified: ${year}`;

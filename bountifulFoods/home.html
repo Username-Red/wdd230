@@ -16,7 +16,7 @@
     <header>
 
         <img class="page-logo" src="images/fruit.png" alt="Bountiful Foods logo">
-
+        
         <h1 class="title">Bountiful Foods</h1>
 
         <span class="page-menu">
@@ -30,21 +30,28 @@
     <main class="home-main">
 
         <div class="temp-condition">
-            <span class="temp">hot</span>
-            <span class="condition">clear</span>
+            <span class="temp">temperature</span>
+            <span class="condition">condition</span>
         </div>
 
         <div class="humidity">
-            dry
+            humidity
         </div>
 
         <div class="forecast">
-            sunny
+            forecast
         </div>
 
-        <picture class="hero-img">
-            <img src="#" alt="">
+
+        <picture class="hero-img-box">
+            <source srcset="images/fruity-whiskies.jpg" media="(min-width: 895px)">
+            <source srcset="images/fruity-whiskies.jpg" media="(max-width: 894px) and (min-width: 650px)">
+            <img class="hero-img" src="images/fruity-whiskies.jpg" alt="picture of cape town">
         </picture>
+
+        <button class="drink-btn" href="fresh.html">Make A Drink!</button>
+
+
         <div class="drinks">
             this many drinks
         </div>

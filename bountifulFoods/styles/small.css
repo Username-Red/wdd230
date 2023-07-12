@@ -20,17 +20,6 @@ header {
     background-color: #FCAC43;
 }
 
---------------------------FOOTER CSS---------------------------
-footer {
-    background-color: #FCAC43;
-    height: 20vh;
-}
-
-div {
-    background: #FCAC43;
-    height: 100%;
-    width: 100%;
-}
 
 .page-menu {
     display: flex;
@@ -426,4 +415,15 @@ form .above input:required:valid {
         background-color: #FCAC43;
         height: 20vh;
     }
+}
+
+footer {
+    background-color: #FCAC43;
+    height: 20vh;
+}
+
+div {
+    background: #FCAC43;
+    height: 100%;
+    width: 100%;
 }

@@ -2,16 +2,22 @@ const currentTemp = document.querySelector('.temp');
 const weatherIcon = document.querySelector('.weather-icon');
 // const captionDesc = document.querySelector('figcaption');
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=4f3b6ca284c383b4bbd8fbd38d58c9a0";
-
+const forecasturl = "https://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid=4f3b6ca284c383b4bbd8fbd38d58c9a0";
 async function apiFetch() {
     try {
       const response = await fetch(url);
-      if (response.ok) {
+      const forecastResponse = await fetch(forecasturl);
+
+      if (response.ok && forecastResponse.ok) {
         const data = await response.json();
+        const forecastData = await forecastResponse.json();
         console.log(data); // this is for testing the call
+        console.log(forecastData)
         loadCondition(data);
         displayResults(data);
-        displaySpeed(data);
+        // displaySpeed(data);
+        loadHumidity(data)
+
         
         
       } else {
@@ -25,11 +31,11 @@ async function apiFetch() {
 function  displayResults(weatherData) {
     currentTemp.innerHTML = `<p>Temperature: ${weatherData.main.temp.toFixed(0)}&degF</p>`;
   
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
+    // const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    // const desc = weatherData.weather[0].description;
   
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
+    // weatherIcon.setAttribute('src', iconsrc);
+    // weatherIcon.setAttribute('alt', desc);
     
 }
 
@@ -41,20 +47,13 @@ function displaySpeed(weatherData) {
   document.getElementsByClassName("speed")[0].innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`
 } 
 
-// function windchill(weatherData) {
-//   var temp = weatherData.main.temp;
-//   var speed = weatherData.wind.speed;
-  
-//   if (temp <= 50 && speed >= 3.0) {
-//     var f = 35.74 + 0.6215 * temp - 35.75 * (speed ** 0.16) + 0.4275 * temp * (speed ** 0.16);
-//     f = Math.round(f);
-//     var chill = f.toString();
-//     document.getElementsByClassName("chill")[0].textContent = `${chill} &degF`;
-// }
-// else {
-//     document.getElementsByClassName("chill")[0].textContent = "N/A";
-// }
-// }
+function loadHumidity(weatherData) {
+  document.querySelector(".humidity-box").innerHTML = `<p>Humidity: ${weatherData.main.humidity}</p>`;
+}
+
+function forecast(forecastData) {
+
+}
 
   
 apiFetch();

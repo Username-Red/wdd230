@@ -22,10 +22,11 @@ function displayNames(data) {
 
     ingredients.forEach(ingredientInput => {
         for(var i = 0; i < 39; i++) {
-            var name = document.createElement('option');
-    
-            name.textContent = data[i].name;
-            ingredientInput.appendChild(name);
+            var option = document.createElement('option');
+            
+            option.textContent = data[i].name;
+            option.setAttribute('value', data[i].name);
+            ingredientInput.appendChild(option);
             
         }
     });

@@ -34,12 +34,12 @@ function displayNames(data) {
     
 }
 
-function populateOptions(data) {
-    var ingredient1 = document.querySelector(".ingredent1");
-    var option = document.createElement('option');
+// function populateOptions(data) {
+//     var ingredient1 = document.querySelector(".ingredent1");
+//     var option = document.createElement('option');
 
-    option.innerHTML = data[1].name
-    ingredient1.appendChild(option);
-}
+//     option.innerHTML = data[1].name
+//     ingredient1.appendChild(option);
+// }
 
 apiFetch();

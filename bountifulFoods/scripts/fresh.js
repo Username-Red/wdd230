@@ -1,19 +1,9 @@
 function completeDrink() {
 
-    var validationExpression = /[A-Z-a-z-0-9]{7}/;
-    //var validationString = document.getElementsByClassName("job-position-box")[0].textContent;
-
-
     document.querySelector(".drink-form").classList.toggle("complete");
-    document.querySelector(".receipt-box complete").classList.toggle("complete");
-
-    // var ingredient = document.querySelector('.ingredient');
-    // alert(ingredient.option)
+    document.querySelector(".receipt-box").classList.toggle("complete");
 
     selectElement = document.querySelectorAll('.ingredient');
-    output = selectElement[2].value;
-
-    
 
     document.querySelector(".ingredient1").textContent = selectElement[0].value;
     document.querySelector(".ingredient2").textContent = selectElement[1].value;

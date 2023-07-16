@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 a {
     color: rgb(255, 255, 255);
@@ -342,7 +343,7 @@ form .above input:required:valid {
 
 @media(width < 649px) {
 
-    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+   
     body {
         font-family: "Lato", Geneva, Tahoma, sans-serif;
     }

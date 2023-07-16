@@ -18,6 +18,7 @@ function completeDrink() {
         }
     }
 
+
     function totalAmount(data) {
         var ingredients = document.querySelectorAll(".ingredient");
         var totalFat = 0;
@@ -92,7 +93,7 @@ function completeDrink() {
 
     
     orderString = localStorage.getItem("order-string");
-    alert(orderString);
+    
 
     switch (drinksNum) {
         case null:
@@ -104,7 +105,7 @@ function completeDrink() {
             localStorage.setItem("drink-count", drinksNum)
     }
 
-    alert(drinksNum)
+    
     
     apiFetch();
 }

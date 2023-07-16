@@ -91,5 +91,8 @@
         grid-column: 1/4;
     }
 
-    
+    .coastal-box p{
+        font-size: 7vh;
+    }
+
 }

@@ -12,7 +12,7 @@ a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
 .drink-complete {
     background-color: white;
     color: green;
-    
+    border-radius: 30px;
     min-width: 400px;
     width: 50%;
     margin: 0 auto;
@@ -58,6 +58,7 @@ header {
     padding: 1%;
 }
 
+
 body {
     margin: 0 auto;
     text-align: center;    
@@ -76,25 +77,30 @@ main {
 .temp-condition-box {
     display: block;
     text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
 }
 
 .temp-condition {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
     
 }
 
 .temp {
+    border-radius: 30px;
     display: flex;
     margin: 0 auto;
-    margin-top: 2.5em;
+    margin-top: 3.5em;
     background: white;
     width: 70%;
     height: 30%;
 }
 
 .condition {
+    border-radius: 30px;
     display: flex;
     margin: 0 auto;
     margin-top: 2.5em;
@@ -104,12 +110,14 @@ main {
 }
 
 .humidity {
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .forecast {
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,6 +136,7 @@ main {
 }
 
 .humidity-box {
+    border-radius: 30px;
     margin: 0 auto;
     display: flex;
     background: white;
@@ -136,6 +145,7 @@ main {
 }
 
 .forecast-box {
+    border-radius: 30px;
     margin: 0 auto;
     display: flex;
     background: white;
@@ -158,16 +168,19 @@ main {
 }
 
 .coastal-info {
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .coastal-box {
+    padding: 10px;
     position: relative;
     margin: 0 auto;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 10%;
+    border-radius: 30px;
     
     height: fit-content;
     width: 90%;
@@ -177,15 +190,18 @@ main {
 
 .coastal-box p{
     margin: 0 auto;
+    font-size: 30%;
 }
 
 .drinks {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
 }
 
 .drinks-box {
+    border-radius: 30px;
     height: fit-content;
     width: 90%;
     font-size: 13vh;
@@ -318,6 +334,15 @@ form .above input:required:valid {
 
 @media(width < 649px) {
 
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    body {
+        font-family: "Lato", Geneva, Tahoma, sans-serif;
+    }
+
+    main {
+        font-family: "Lato", Geneva, Tahoma, sans-serif;
+    }
+
     header {
         height: 30vh;
     }
@@ -343,6 +368,7 @@ form .above input:required:valid {
     }
 
     .home-main {
+        
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 25vh 25vh 25vh 25vh 25vh ;

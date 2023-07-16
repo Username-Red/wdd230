@@ -2,7 +2,9 @@ const currentTemp = document.querySelector('.temp');
 const weatherIcon = document.querySelector('.weather-icon');
 // const captionDesc = document.querySelector('figcaption');
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=4f3b6ca284c383b4bbd8fbd38d58c9a0";
-const forecasturl = "https://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid=4f3b6ca284c383b4bbd8fbd38d58c9a0";
+const forecasturl = "https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=imperial&appid=4f3b6ca284c383b4bbd8fbd38d58c9a0";
+
+
 async function apiFetch() {
     try {
       const response = await fetch(url);
@@ -17,6 +19,7 @@ async function apiFetch() {
         displayResults(data);
         // displaySpeed(data);
         loadHumidity(data)
+        forecast(data);
 
         
         
@@ -27,6 +30,9 @@ async function apiFetch() {
         console.log(error);
     }
 }
+
+
+
 
 function  displayResults(weatherData) {
     currentTemp.innerHTML = `<p>Temperature: ${weatherData.main.temp.toFixed(0)}&degF</p>`;
@@ -52,7 +58,9 @@ function loadHumidity(weatherData) {
 }
 
 function forecast(forecastData) {
-
+    for(i = 0; i < 3; i++) {
+      alert(forecastData.list)
+    }
 }
 
   

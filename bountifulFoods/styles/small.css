@@ -481,15 +481,22 @@ form .above input:required:valid {
         grid-column: 1/3;
     }
 
-    footer {
-        background-color: #FCAC43;
-        height: 20vh;
-    }
 }
 
 footer {
+    font-family: 'Lobster', Courier, monospace;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
     background-color: #FCAC43;
     height: 20vh;
+}
+
+.footer-links {
+    margin: 10px;
+}
+
+footer p {
+    margin: 10px;
 }
 
 div {

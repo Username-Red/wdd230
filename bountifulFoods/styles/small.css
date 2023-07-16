@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 a {
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration: none;
 }
-a:visited { text-decoration: none; color:rgb(255, 255, 255); }
-a:hover { text-decoration: none; color:rgb(255, 255, 255); }
-a:focus { text-decoration: none; color:rgb(255, 255, 255); }
-a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
 
 .drink-complete {
     background-color: white;
@@ -48,6 +48,9 @@ header {
     /* outline: solid black 1px; */
 }
 
+.page-menu a {
+    height: fit-content;
+}
 
 .page-menu a:hover {
     background-color: white;
@@ -63,7 +66,7 @@ header {
 body {
     margin: 0 auto;
     text-align: center;    
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 main {

@@ -19,7 +19,7 @@ async function apiFetch() {
         displayResults(data);
         // displaySpeed(data);
         loadHumidity(data)
-        forecast(data);
+        forecast(forecastData);
 
         
         
@@ -58,8 +58,12 @@ function loadHumidity(weatherData) {
 }
 
 function forecast(forecastData) {
+  
     for(i = 0; i < 3; i++) {
-      alert(forecastData.list)
+      var forecastTemp = forecastData.list[i].main.temp;
+      const forecastInfo = document.createElement('p');
+      forecastInfo.textContent = `Day ${i+1}: ${forecastTemp}${String.fromCharCode(176)}`;
+      document.querySelector('.forecast-box').appendChild(forecastInfo);
     }
 }
 

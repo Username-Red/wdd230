@@ -147,7 +147,9 @@ main {
 .forecast-box {
     border-radius: 30px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     background: white;
     width: 70%;
     height: 70%;
@@ -198,6 +200,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    height: fit-content + 10px;
 }
 
 .drinks-box {
@@ -206,6 +209,11 @@ main {
     width: 90%;
     font-size: 13vh;
     background-color: white;
+}
+
+.drinks-box p {
+    margin: 10vh;
+    font-size: 10vh;
 }
 
 .AU-main {

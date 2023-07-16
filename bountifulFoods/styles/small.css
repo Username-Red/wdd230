@@ -200,7 +200,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    height: fit-content + 10px;
+    
 }
 
 .drinks-box {
@@ -420,10 +420,11 @@ form .above input:required:valid {
     .drinks p {
         position: relative;
         margin: 0 auto;
+        margin: 10px;
         top: 25%;
         height: 50%;
         width: 90%;
-        font-size: 10vh;
+        font-size: 5vh;
         background-color: white;
     }
 
@@ -464,6 +465,10 @@ form .above input:required:valid {
     .forecast {
         grid-column: 2/3;
         grid-row: 4/5;
+    }
+
+    .forecast-box p {
+        font-size: 3.3vh;
     }
     
 

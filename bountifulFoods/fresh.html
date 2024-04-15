@@ -27,12 +27,73 @@
 
     </header>
 
-    <main class="home-main">
+    <main class="fresh-main">
+
+        <div class="drink-form-box">
+
+            <form class="drink-form" method="get" action="#">
+                <!-- name, email, phone number -->
+                <fieldset>
+                    <legend>Profile Information</legend>
+                    <label class="above">First Name* <input type="text" name="fname" class="name-input" required></label>
+                    <label class="above">Email* <input type="email" name="email" class="email-input" required placeholder="somedork@gmail.com"></label>
+                    <label class="above">Cellphone Number* <input type="tel" class="cell-input" placeholder="1234567890" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Ingredients</legend>
+                    <select name="ingredient1" class="ingredient 1">
+                        <option value="none">Select</option>
+                    </select>
+                    with
+                    <select name="ingredient2" class="ingredient 2">
+                        <option value="none">Select</option>
+                    </select>
+                    and
+                    <select name="ingredient3" class="ingredient 3">
+                        <option value="none">Select</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                    <label>.<textarea class="user-textbox" name="userDescription" cols="30" rows="10" placeholder="Add a splash of milk! (optional)"></textarea></label>
+                </fieldset>
+
+                <input type="button" value="Order My Custom Drink" class="createBtn" onclick="completeDrink()">
+            </form>
+            
+            <!-- <a class="createBtn" href="#" onclick="completeDrink()">Order My Custom Drink</a> -->
+            
+
+        </div>
+
+        <div class="receipt-box complete">
+            <div class="drink-complete">
+                <h1>Drink Order</h1>
+                <p class="fname">name</p>
+                <p class="email">email</p>
+                <p class="cell-num">Cell Number</p>
+                <p class="ingredient1">Ingredient 1</p>
+                <p class="ingredient2">Ingredient 2</p>
+                <p class="ingredient3">Ingredient 3</p>
+                <p class="instructions">Special Instructions</p>
+
+                <p class="carbs">carbs</p>
+                <p class="protien">protien</p>
+                <p class="fat">12</p>
+                <p class="sugar">sugar</p>
+                <p class="calories">calories</p>
+    
+            </div>
+        </div>
+
+        
 
     </main>
 
     <footer>
-        <span>
+        <span class="footer-links">
             <a href="twitter.com">Twitter</a>
             <a href="instagram.com">Instagram</a>
             <a href="facebook.com">Facebook</a>
@@ -41,6 +102,10 @@
         <p>copyright &copy;</p>
         <p class="last-modified">last modified</p>
     </footer>
+
     <script src="scripts/last-modified.js"></script>
+    <script src="scripts/fresh.js"></script>
+    <script src="scripts/populate-fruit.js"></script>
+
 </body>
 </html>

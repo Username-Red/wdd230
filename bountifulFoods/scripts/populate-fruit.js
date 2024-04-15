@@ -6,7 +6,7 @@ async function apiFetch() {
       if (response.ok) {
         const data = await response.json();
         console.log(data); // this is for testing the call
-        
+        // populateOptions(data);
         displayNames(data);
       } else {
           throw Error(await response.text());
@@ -18,22 +18,28 @@ async function apiFetch() {
 
 function displayNames(data) {
 
-    // var name = document.createElement('p');
-    // var main = document.querySelector('.home-main');
+    var ingredients = document.querySelectorAll('.ingredient')
 
-    // name.textContent = data[0].name;
-    // main.appendChild(name);
+    ingredients.forEach(ingredientInput => {
+        for(var i = 0; i < 39; i++) {
+            var option = document.createElement('option');
+            
+            option.textContent = data[i].name;
+            option.setAttribute('value', data[i].name);
+            ingredientInput.appendChild(option);
+            
+        }
+    });
 
-    for(var i = 0; i < 39; i++) {
-        var name = document.createElement('p');
-        var main = document.querySelector('.home-main');
-
-        name.textContent = data[i].name;
-        main.appendChild(name);
-        
-
-
-    }
+    
 }
+
+// function populateOptions(data) {
+//     var ingredient1 = document.querySelector(".ingredent1");
+//     var option = document.createElement('option');
+
+//     option.innerHTML = data[1].name
+//     ingredient1.appendChild(option);
+// }
 
 apiFetch();
